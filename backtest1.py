@@ -8,9 +8,9 @@ data['MA20'] = data['Close'].rolling(window=20).mean()
 data['MA50'] = data['Close'].rolling(window=50).mean()
 
 # Initialize variables for tracking trades
-position = None
-entry_price = None
-exit_price = None
+position = 'LONG'
+entry_price = 145.89
+exit_price = 150
 profit = 0
 
 # Loop through each day in the data set
