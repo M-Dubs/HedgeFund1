@@ -1,6 +1,7 @@
 import pandas as pd
 import numpy as np
 import datetime as dt
+import matplotlib
 
 # Read historical data into a pandas dataframe
 data = pd.read_csv('historical_data.csv')
